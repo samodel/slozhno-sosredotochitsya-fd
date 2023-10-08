@@ -48,3 +48,7 @@ a {
   padding: 0;
   text-decoration: none;
 }
+
+picture {
+  margin: 0;
+}

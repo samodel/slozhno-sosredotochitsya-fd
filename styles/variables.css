@@ -16,4 +16,13 @@
   --margin-top-small: 60px;
   --margin-top-big: 80px;
   --gallery-gap: 20px;
+
+  @media (width < 768px) {
+    --padding-inline: 10px;
+    --padding-block: 10px;
+    --margin-top-small: 40px;
+    --margin-top-big: 50px;
+    --gallery-gap: 10px;
+    --main-title-font-size: 116px;
+  }
 }

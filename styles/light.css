@@ -12,7 +12,11 @@
   color: #353430;
   background-image: url(../images/cover-image-light.png);
 
-  .header__rec {
+  @media (width < 1024px) {
+  --text-shadow: 4px 4px 0 #FF8DCB;
+}
+}
+
+.page.theme_light .header__rec {
     display: none;
-  }
 }
