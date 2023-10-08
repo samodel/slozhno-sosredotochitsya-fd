@@ -49,21 +49,23 @@
 
 .header__theme-menu-item {
   min-inline-size: 70px;
-  min-block-size: 26px;
+  min-block-size: 27px;
 }
 
 .header__theme-menu-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 0;
   color: var(--accent-color);
   font-style: normal;
-  line-height: 18px;
+  line-height: 23px;
   text-align: center;
   text-transform: lowercase;
   background-color: transparent;
   cursor: pointer;
   min-inline-size: 70px;
-  padding: 3px;
 }
 
 .header__theme-menu-button_active {
