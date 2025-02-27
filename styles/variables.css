@@ -1,5 +1,5 @@
 :root {
-  --font-family: "IBM Plex mono";
+  --font-family: "IBM Plex mono", monospace, sans-serif;
   --main-title-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --accent-color: #ff0070;
   --bg-color: #000028;
