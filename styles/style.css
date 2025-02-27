@@ -9,7 +9,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 668px;
   padding-inline: var(--padding-inline);
   padding-block: var(--padding-block);
 }
@@ -45,11 +46,6 @@
   grid-template-columns: repeat(3, auto);
   justify-content: center;
   gap: 10px;
-}
-
-.header__theme-menu-item {
-  min-inline-size: 70px;
-  min-block-size: 27px;
 }
 
 .header__theme-menu-button {
@@ -164,7 +160,7 @@
 }
 
 .text__link:hover {
-  border-bottom: 2px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color);
 }
 
 .text__link:focus {
@@ -260,7 +256,8 @@
   align-items: center;
   margin-block-start: var(--margin-top-small);
   padding: 20px;
-  block-size: max(668px, 100vh);
+  height: 668px;
+  block-size: 100vh;
 }
 
 .footer-logo {
