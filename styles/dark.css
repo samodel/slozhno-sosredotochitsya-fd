@@ -1,4 +1,3 @@
-
 .page.theme_dark {
   --accent-color: #ff0070;
   --title-bg-color: #ff0070;
@@ -20,4 +19,15 @@
   .content__title {
     color: var(--accent-color);
   }
+}
+
+@media (prefers-color-scheme: dark) {
+  
+  .header__rec {
+    display: block;
+  }
+}
+
+.page.theme_dark .header__rec {
+  display: block;
 }
